@@ -142,7 +142,7 @@ function install_nginx() {
 
 function install_deps() {
     installit lsof tar cron htop unzip curl \
-        libpcre3 libpre3-dev zlib1g-dev openssl \
+        libpcre3 libpcre3-dev zlib1g-dev openssl \
         libssl-dev qrencode jq
     judge "Install dependencies"
 
